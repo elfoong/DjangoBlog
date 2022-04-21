@@ -5,6 +5,7 @@ from .models import Post, Category, Tag
 class TagAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug': ('name',)}
 
+
 class CategoryAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug': ('name',)}
 
