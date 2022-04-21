@@ -115,5 +115,7 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 
-# primary key 속성
-DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+# User media files
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, '_media')
